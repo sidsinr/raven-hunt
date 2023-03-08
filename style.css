@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(to bottom, midnightblue, red, orangered);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    cursor: crosshair;
+    box-sizing: border-box;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 5px soild yellow;
+}
+#collisionCanvas{
+    opacity: 0;
+}
+
+button{
+    position: absolute;
+    font-size: 48px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: -2px 2px 3px black;
+    border-radius: 10px;
+}
+button:hover{
+    transform: scale(1.1);
+}
+
+#tryAgain{
+    width: 300px;
+    bottom: 20%;
+    display: none;
+}
+
+#start{
+    top: 45%;
+    width: 150px;
+}
