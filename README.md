@@ -4,7 +4,7 @@
 A simple shooter game made in javascript.
 
 ## Aim
-To prevent ravens from reaching the left side of the screen.
+Prevent the ravens from reaching the left side of the screen. Click to shoot.
 
 ## Demo
 
